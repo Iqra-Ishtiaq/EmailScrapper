@@ -1,0 +1,42 @@
+  .pass{
+    position: absolute;
+    display: flex;
+    float: left;
+    
+   
+  }
+i {
+  position: absolute;
+  display: flex;
+  top: 38%;
+  right: 10%;
+}
+.c-pass{
+  position: absolute;
+    display: flex;
+    float: left;
+    margin-top: 5rem;
+}
+  .gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #f3f3f3;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #f3f3f3, #f3f3f3, #f3f3f3, #f3f3f3);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #f3f3f3, #f3f3f3, #f3f3f3, #f3f3f3);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+  

@@ -1,0 +1,51 @@
+.textfields{
+    padding-left: 2rem;
+    margin-top:2rem;
+  }
+  
+  .img{
+    width: 10rem;
+    height:10rem;
+    margin-right: 25%;
+    margin-left:25%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+  
+    
+  }
+  .loginBtn{
+    width:14rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    height:50px;
+    background-color: black;
+    color: white;
+    margin-top:2rem;
+    
+  }
+  .CreateAccount{
+    margin-top:3rem;
+    font-size: small;
+    font-weight: 700;
+    padding-left: 3rem;
+  }
+  
+  .pass-wrapper{
+    position: absolute;
+    display: flex;
+    float: left;
+    margin-top: 55px;
+   
+  }
+i {
+  position: absolute;
+  display: flex;
+  top: 38%;
+  right: 10%;
+}
+i:hover {
+  color: black;
+  cursor: pointer;
+}

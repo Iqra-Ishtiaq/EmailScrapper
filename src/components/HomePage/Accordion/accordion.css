@@ -1,0 +1,47 @@
+.wrapper{
+    display: flex;
+    width: 100vw;
+    padding-left:25%;
+    padding-right: 25%;
+
+    
+    
+}
+.accordion
+{
+    width: 600px;
+}
+.item
+{
+    background:white ;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+   
+   
+}
+.title
+{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+
+}
+.paragraph{
+    font-size: 18px;
+    font-weight: 600;
+}
+.content
+{
+    font-size: 12px;
+    color: black;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show{
+    height:auto;
+    max-height: 9999px;
+    transition: all 0.5s calc(1,0,1,0);
+}

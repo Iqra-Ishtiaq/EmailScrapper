@@ -1,0 +1,89 @@
+.btn-active{
+    color: white !important;
+    background-color: rgb(9, 9, 9);
+    border-radius: 2rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width:6rem;
+    display: inline-block;
+    line-height:30px;
+    
+    }
+    .btn-monthly{
+        color:rgb(252, 245, 245);
+        outline: none;
+        display: inline-block;
+        line-height: 30px;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 5px;
+       
+    }
+
+.btn-active:hover, 
+.btn-active:active,
+.btn-active:focus,
+.btn-active:visited{
+    color: white !important;
+    background-color: rgb(12, 12, 12);
+    
+}
+
+.salebtn{
+     color:black;
+     background-color: rgb(203, 202, 202);
+     border-radius: 2rem;
+    text-align: center;
+    margin-left: 52%;
+    margin-right: 52%;
+    font-weight: 600;
+    
+}
+.arrowbtn
+{
+    color:black;
+    font-weight: bold;
+    font-size: large;
+}
+.btncol2
+{
+    background-color:grey;
+    color:"white";
+    width: 80%;
+    margin-top: 1rem;
+    align-items: center;
+    border-radius: 7px;
+    border-color: grey;
+}
+.footerleft{
+    background-color: black;
+    color:white;
+    width: 80%;
+    margin-top: 2rem;
+    border-color: black;
+    border-radius: 3px;
+
+    
+}
+.footercenter{
+    background-color: black;
+    color:white;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    border-color: white;
+    margin-top: 1rem;
+    border-radius: 3px;
+}
+.footercenter:hover{
+    background-color:gray;
+}
+.footerright{
+    background-color: black;
+    color:white;
+    border-color: black;
+    width: 80%;
+    margin-top: 2rem;
+   float:right;
+   border-radius: 3px;
+}
